@@ -872,7 +872,7 @@ img {
 }
 
 .comment{
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .textarea-comment{
@@ -895,11 +895,18 @@ img {
   border-color: #4D5AE5;
 }
 
-.terms-check{
+.form-terms{
   margin-bottom: 24px;
 }
 
-.checkbox{
+.checkbox-text{
+  font-size:12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--customer-link);
+}
+
+.checkbox-prop{
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
