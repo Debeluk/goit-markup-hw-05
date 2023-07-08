@@ -911,7 +911,7 @@ img {
   fill: transparent;
 }
 
-.terms-check:checked .checkbox{
+.checkbox:checked + .checkbox-text .checkbox-prop{
   background-color: #404bbf;
   border: none;
   fill: var(--second-white-color);
